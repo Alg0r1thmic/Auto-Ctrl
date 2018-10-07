@@ -19,7 +19,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
     QWebEnginePage *page= new QWebEnginePage();
     ui->preview->setPage(page);
-    ui->preview->setUrl(QUrl("https://index.html"));
+    ui->preview->setUrl(QUrl("https://www.google.com/maps"));
 
     ui->quickWidget_2->rootContext()->setContextProperty(s,this);
     ui->quickWidget_2->setSource(QUrl(QStringLiteral("qrc:/qmlcharts/qml/chartMain.qml")));
