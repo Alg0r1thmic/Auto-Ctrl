@@ -6,6 +6,7 @@
 
 QT       += core gui
 QT +=quickwidgets
+QT += webenginewidgets
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -27,10 +28,12 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    geolocation.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    geolocation.h
 
 FORMS += \
         mainwindow.ui
@@ -41,4 +44,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
-    res.qrc
+    qmlcharts.qrc \
+    3dcarres.qrc

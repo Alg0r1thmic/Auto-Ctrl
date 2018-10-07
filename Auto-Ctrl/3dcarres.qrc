@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>3DcarQml/Logo.qml</file>
+        <file>3DcarQml/main.qml</file>
+        <file>3DcarQml/lambor.obj</file>
+        <file>3DcarQml/car.obj</file>
+    </qresource>
+</RCC>

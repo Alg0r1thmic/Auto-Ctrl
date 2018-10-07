@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qmlcharts/qml/chartMain.qml</file>
+        <file>qmlcharts/qml/MainForm.ui.qml</file>
+        <file>qmlcharts/qml/View1.qml</file>
+        <file>qmlcharts/qml/View10.qml</file>
+        <file>qmlcharts/qml/View11.qml</file>
+        <file>qmlcharts/qml/View12.qml</file>
+        <file>qmlcharts/qml/View2.qml</file>
+        <file>qmlcharts/qml/View3.qml</file>
+        <file>qmlcharts/qml/View4.qml</file>
+        <file>qmlcharts/qml/View5.qml</file>
+        <file>qmlcharts/qml/View6.qml</file>
+        <file>qmlcharts/qml/View7.qml</file>
+        <file>qmlcharts/qml/View8.qml</file>
+        <file>qmlcharts/qml/View9.qml</file>
+    </qresource>
+</RCC>

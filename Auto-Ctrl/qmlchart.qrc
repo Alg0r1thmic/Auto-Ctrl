@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>chartMain.qml</file>
+        <file>MainForm.ui.qml</file>
+        <file>View1.qml</file>
+        <file>View10.qml</file>
+        <file>View11.qml</file>
+        <file>View12.qml</file>
+        <file>View2.qml</file>
+        <file>View9.qml</file>
+        <file>View8.qml</file>
+        <file>View7.qml</file>
+        <file>View6.qml</file>
+        <file>View5.qml</file>
+        <file>View4.qml</file>
+        <file>View3.qml</file>
+    </qresource>
+</RCC>

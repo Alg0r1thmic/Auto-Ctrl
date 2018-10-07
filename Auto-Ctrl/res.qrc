@@ -3,5 +3,6 @@
         <file>main.qml</file>
         <file>Logo.qml</file>
         <file>car.obj</file>
+        <file>lambor.obj</file>
     </qresource>
 </RCC>
