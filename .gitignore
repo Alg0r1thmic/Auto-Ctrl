@@ -32,3 +32,4 @@
 *.app
 
 build-Auto-Ctrl-Desktop_Qt_5_11_2_GCC_64bit-Debug/*
+*.user
