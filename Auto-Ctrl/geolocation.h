@@ -10,6 +10,7 @@
 #include <QWebEngineView>
 #include <QWebEnginePage>
 
+//clase que se encarga de mostrar la geolocalizacion del auto
 class Geolocation
 {
 public:
@@ -21,7 +22,7 @@ public:
     void setPage(QWebEnginePage *value);
 
 private:
-    QString url="https://www.google.com/maps";
+    QString url="https://www.google.com/maps";//direccion de google maps
     QWebEnginePage *page = new QWebEnginePage();
 };
 
