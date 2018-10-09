@@ -7,7 +7,7 @@
 QT       += core gui
 QT +=quickwidgets
 QT += webenginewidgets
-
+QT += core gui sql
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = Auto-Ctrl
@@ -29,11 +29,13 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    geolocation.cpp
+    geolocation.cpp \
+    dbconnection.cpp
 
 HEADERS += \
         mainwindow.h \
-    geolocation.h
+    geolocation.h \
+    dbconnection.h
 
 FORMS += \
         mainwindow.ui
@@ -45,4 +47,4 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     qmlcharts.qrc \
-    3dcarres.qrc
+    carres.qrc

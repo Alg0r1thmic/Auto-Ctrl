@@ -1,10 +1,10 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <geolocation.h>
 #include <QMainWindow>
 #include <QWebEngineView>
 #include <QWebEnginePage>
+#include "geolocation.h"
 namespace Ui {
 class MainWindow;
 }
@@ -15,6 +15,9 @@ class MainWindow : public QMainWindow
 
 public:
     explicit MainWindow(QWidget *parent = nullptr);
+    void car3Dinitialization();
+    void geoLocationInitialization();
+    void estadisticasInitialization();
     ~MainWindow();
     QUrl commandLineUrlArgument();
     
