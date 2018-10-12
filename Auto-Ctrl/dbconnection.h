@@ -13,6 +13,10 @@ class DBConnection
 {
 public:
     DBConnection();
+    QSqlDatabase getConnection();
+
+
+
 };
 
 #endif // DBCONNECTION_H

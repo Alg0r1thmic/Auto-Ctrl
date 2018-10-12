@@ -6,6 +6,7 @@ using namespace std;
 
 DBConnection::DBConnection()
 {
+    /*
     if (QSqlDatabase::isDriverAvailable("QMYSQL")) {
 
         QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
@@ -17,7 +18,7 @@ DBConnection::DBConnection()
         if(db.open())
         {
             QSqlQuery query;
-            query.exec("SELECT * FROM Carros;");
+            query.exec("SELECT * FROM Carros ;");
             while(query.next()) {
                int id = query.value(0).toInt();
 
@@ -29,5 +30,19 @@ DBConnection::DBConnection()
     }
     else
         cout << "no disponible";
+    */
+}
 
+QSqlDatabase DBConnection::getConnection()
+{
+    if (QSqlDatabase::isDriverAvailable("QMYSQL")) {
+
+        QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
+        db.setHostName("localhost");
+        db.setPort(3306);
+        db.setUserName("root");
+        db.setPassword("");
+        db.setDatabaseName("CarCtrl");
+        return db;
+    }
 }

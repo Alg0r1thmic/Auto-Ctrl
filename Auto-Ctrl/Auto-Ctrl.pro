@@ -30,16 +30,18 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
     geolocation.cpp \
-    dbconnection.cpp
+    dbconnection.cpp \
+    login.cpp
 
 HEADERS += \
         mainwindow.h \
     geolocation.h \
-    dbconnection.h
+    dbconnection.h \
+    login.h
 
 FORMS += \
         mainwindow.ui \
-    Login.ui
+    login.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
