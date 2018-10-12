@@ -11,7 +11,11 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Auto-Ctrl</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../68321.png</normaloff>../68321.png</iconset>
   </property>
   <widget class="QLabel" name="label">
    <property name="geometry">

@@ -23,7 +23,7 @@ void Login::on_pushButton_clicked()
     if(newDb.open())
     {
         QSqlQuery query;
-        query.exec("SELECT * FROM user;");
+        //query.exec("SELECT * FROM user;");
         QString consulta="select user,password from user where user= '"+ inputUser+ "' AND password = '"+inputPassword+"'";
         //query.exec(" select user,password from user where(user='raul') AND password='spaceman'");
         query.exec(consulta);

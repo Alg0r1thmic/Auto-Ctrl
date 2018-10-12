@@ -17,7 +17,11 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Auto-Ctrl</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../68321.png</normaloff>../68321.png</iconset>
   </property>
   <property name="autoFillBackground">
    <bool>false</bool>
