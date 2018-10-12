@@ -27,12 +27,10 @@ void testMysql()
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    testMysql();
+    //testMysql();
     //createLoginWindow();
-    //MainWindow w;
-    //w.show();
-    //Login l;
-    //l.show();
-
+    Login l;
+    l.show();
+    l.move(550,200);
     return a.exec();
 }
