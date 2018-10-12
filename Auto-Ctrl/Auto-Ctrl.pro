@@ -4,10 +4,10 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT += core gui
+QT+=sql
 QT +=quickwidgets
 QT += webenginewidgets
-QT += core gui sql
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = Auto-Ctrl
@@ -38,12 +38,14 @@ HEADERS += \
     dbconnection.h
 
 FORMS += \
-        mainwindow.ui
+        mainwindow.ui \
+    Login.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
 
 RESOURCES += \
     qmlcharts.qrc \
