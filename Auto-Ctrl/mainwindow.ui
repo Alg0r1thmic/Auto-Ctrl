@@ -20,11 +20,14 @@
    <string>Auto-Ctrl</string>
   </property>
   <property name="windowIcon">
-   <iconset>
-    <normaloff>../68321.png</normaloff>../68321.png</iconset>
+   <iconset resource="images.qrc">
+    <normaloff>:/images/68321.png</normaloff>:/images/68321.png</iconset>
   </property>
   <property name="autoFillBackground">
    <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QTabWidget" name="tabWidget">
@@ -43,12 +46,18 @@
 }</string>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>3</number>
     </property>
     <property name="movable">
      <bool>false</bool>
     </property>
     <widget class="QWidget" name="widget">
+     <property name="styleSheet">
+      <string notr="true">QTabWidget QWidget
+{
+background-color: rgb(29, 29, 29);
+}</string>
+     </property>
      <attribute name="title">
       <string>CAR 3D</string>
      </attribute>
@@ -89,9 +98,9 @@ background-color: rgb(85, 87, 83);
     </widget>
     <widget class="QWidget" name="tab_3">
      <property name="styleSheet">
-      <string notr="true">QTabWidget
+      <string notr="true">QTabWidget QWidget
 {
-rgb(46, 52, 54)
+background-color:rgb(29, 29, 29);
 }</string>
      </property>
      <attribute name="title">
@@ -112,6 +121,12 @@ rgb(46, 52, 54)
      </widget>
     </widget>
     <widget class="QWidget" name="tab_4">
+     <property name="styleSheet">
+      <string notr="true">QTabWidget QWidget
+{
+background-color:rgb(29, 29, 29);
+}</string>
+     </property>
      <attribute name="title">
       <string>REPORTES</string>
      </attribute>
@@ -152,6 +167,8 @@ rgb(46, 52, 54)
    <container>1</container>
   </customwidget>
  </customwidgets>
- <resources/>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
  <connections/>
 </ui>

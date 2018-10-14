@@ -51,4 +51,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     qmlcharts.qrc \
-    carres.qrc
+    carres.qrc \
+    images.qrc
