@@ -4,5 +4,6 @@
         <file>images/autoctrl.png</file>
         <file>images/login.png</file>
         <file>images/main.qml</file>
+        <file>images/auto.jpg</file>
     </qresource>
 </RCC>

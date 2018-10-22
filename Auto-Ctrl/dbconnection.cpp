@@ -42,7 +42,13 @@ QSqlDatabase DBConnection::getConnection()
         db.setPort(3306);
         db.setUserName("root");
         db.setPassword("");
-        db.setDatabaseName("CarCtrl");
+        db.setDatabaseName("AutoCtrl");
         return db;
     }
 }
+
+void DBConnection::fillConductor(int id, string name, string lastname, int edad, int dni)
+{
+    QSqlDatabase newDta=getConnection();
+}
+

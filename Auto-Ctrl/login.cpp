@@ -9,7 +9,7 @@
 #include <QMessageBox>
 #include <QtWebView/QtWebView>
 #include <QUrl>
-
+#include <QGraphicsPixmapItem>
 Login::Login(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::Login)

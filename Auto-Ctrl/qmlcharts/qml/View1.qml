@@ -11,7 +11,7 @@ Item {
     //![1]
     ChartView {
         id: chart
-        title: "Top-5 car brand shares in Finland"
+        title: "Top Carros"
         anchors.fill: parent
         legend.alignment: Qt.AlignBottom
         antialiasing: true
@@ -19,7 +19,6 @@ Item {
         PieSeries {
             id: pieSeries
             PieSlice { label: "Volkswagen"; value: 13.5 }
-
             PieSlice { label: "Toyota"; value: 10.9 }
             PieSlice { label: "Ford"; value: 8.6 }
             PieSlice { label: "Skoda"; value: 8.2 }

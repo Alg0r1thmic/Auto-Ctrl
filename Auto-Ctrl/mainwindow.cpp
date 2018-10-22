@@ -40,6 +40,21 @@ void MainWindow::estadisticasInitialization()
     ui->quickWidget_2->setSource(QUrl(QStringLiteral("qrc:/qmlcharts/qml/chartMain.qml")));
 }
 
+void MainWindow::showConductor()
+{
+    QSqlDatabase db=this->dbc->getConnection();
+    if(db.open())
+    {
+        QString id,nombre,apellido,edad,dni;
+        QSqlQuery query;
+        QString consulta="select *from Conductor where id_conductor=1";
+        query.exec(consulta);
+        while (query.next()) {
+
+        }
+    }
+}
+
 MainWindow::~MainWindow()
 {
     delete ui;
