@@ -1,5 +1,5 @@
 -- Created by Vertabelo (http://vertabelo.com)
--- Last modification date: 2018-10-23 00:21:37.607
+-- Last modification date: 2018-10-23 00:25:08.132
 
 -- tables
 -- Table: Conductor
