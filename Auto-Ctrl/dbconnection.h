@@ -15,6 +15,8 @@ public:
     DBConnection();
     QSqlDatabase getConnection();
 
+    void fillConductor(int id,string name,string lastname,int edad,int dni);
+    void fillEstadoVehiculo(string placa,double gasolina,int llantas,double temperatura,QDate,QDate);
 
 
 };

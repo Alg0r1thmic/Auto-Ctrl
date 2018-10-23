@@ -5,6 +5,7 @@
 #include <QWebEngineView>
 #include <QWebEnginePage>
 #include "geolocation.h"
+#include "dbconnection.h"
 namespace Ui {
 class MainWindow;
 }
@@ -18,6 +19,7 @@ public:
     void car3Dinitialization();
     void geoLocationInitialization();
     void estadisticasInitialization();
+    void showConductor();
     ~MainWindow();
     QUrl commandLineUrlArgument();
     
@@ -25,6 +27,8 @@ private slots:
 private:
     Ui::MainWindow *ui;
     QWebEngineView *m_view;
+    DBConnection *dbc=new DBConnection();
+
 };
 
 #endif // MAINWINDOW_H

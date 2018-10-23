@@ -14,7 +14,16 @@ Item {
     }
     Image {
         id: im
-        source: "login.png"
+        x: 0
+        y: 0
+        width: 289
+        height: 200
+        source: "68321.png"
     }
 
 }
+
+/*##^## Designer {
+    D{i:0;autoSize:true;height:480;width:640}
+}
+ ##^##*/
