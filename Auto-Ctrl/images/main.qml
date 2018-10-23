@@ -16,9 +16,9 @@ Item {
         id: im
         x: 0
         y: 0
-        width: 289
-        height: 200
-        source: "68321.png"
+        width: 302
+        height: 206
+        source: "lambor.jpg"
     }
 
 }

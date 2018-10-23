@@ -11,7 +11,7 @@ Item {
     //![1]
     ChartView {
         id: chart
-        title: "Top Carros"
+        title: "TOP CLIENTES"
         anchors.fill: parent
         legend.alignment: Qt.AlignBottom
         antialiasing: true

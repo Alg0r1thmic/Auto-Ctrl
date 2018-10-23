@@ -49,7 +49,20 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 
+CONFIG += link_pkgconfig
+PKGCONFIG += opencv
+
 RESOURCES += \
     qmlcharts.qrc \
     carres.qrc \
     images.qrc
+
+DISTFILES += \
+    DetecColors.py
+
+
+
+#LIBS += -L /usr/local/lib/python3.6 -lpython3.6
+
+#INCLUDEPATH += /usr/include/python3.6
+#DEPENDPATH += /usr/include/python3.6

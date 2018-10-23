@@ -23,7 +23,12 @@ public:
     ~MainWindow();
     QUrl commandLineUrlArgument();
     
+    void llenar();
+    void testOpencv();
 private slots:
+    void on_pushButton_clicked();
+
+
 private:
     Ui::MainWindow *ui;
     QWebEngineView *m_view;

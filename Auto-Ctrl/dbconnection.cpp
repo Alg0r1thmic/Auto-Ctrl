@@ -47,8 +47,3 @@ QSqlDatabase DBConnection::getConnection()
     }
 }
 
-void DBConnection::fillConductor(int id, string name, string lastname, int edad, int dni)
-{
-    QSqlDatabase newDta=getConnection();
-}
-
