@@ -5,6 +5,6 @@ Proyecto de Sistemas operativos
 # Login
 ![alt text](https://github.com/RaulToto/Auto-Ctrl/blob/master/Auto-Ctrl/images/login.png)
 
-# Auto-Ctrl
-![alt text](https://github.com/RaulToto/Auto-Ctrl/blob/master/Auto-Ctrl/images/autoctrl.png)
+# Instalar Qt en Ubuntu 18.4
+https://www.qt.io/download-qt-installer
 
