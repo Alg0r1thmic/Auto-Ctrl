@@ -37,4 +37,18 @@ https://www.apachefriends.org/es/download_success.html
 en Qt suele ocurrir el error de driver not load para solucionar el problema me  base en el siguiente tutorial
 https://stackoverflow.com/questions/14667768/qmysql-driver-available-but-not-loaded
 
+luego de solucionar ese problema suele generarse otro 
+
+```shell
+Can't connect to local MySQL server through socket qt  etse
+```
+
+para solucionar este uso los siguientes comandos
+
+```shell
+sudo mkdir /var/run/mysqld
+sudo ln -s /opt/lampp/var/mysql/mysql.sock /var/run/mysqld/mysqld.sock
+```
+
+
 
