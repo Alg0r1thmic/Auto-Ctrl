@@ -30,7 +30,7 @@ CREATE TABLE Estado_Vehiculo (
     Temperatura_motor double(3,3) NOT NULL,
     Hora time NOT NULL,
     Fecha date NOT NULL,
-    velocidad real(4,5) NOT NULL,
+    velocidad real(5,4) NOT NULL,
     CONSTRAINT Estado_Vehiculo_pk PRIMARY KEY (id_estado)
 );
 
