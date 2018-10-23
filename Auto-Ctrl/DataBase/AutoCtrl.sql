@@ -1,5 +1,5 @@
 -- Created by Vertabelo (http://vertabelo.com)
--- Last modification date: 2018-10-22 23:42:44.399
+-- Last modification date: 2018-10-23 00:21:37.607
 
 -- tables
 -- Table: Conductor
@@ -30,6 +30,7 @@ CREATE TABLE Estado_Vehiculo (
     Temperatura_motor double(3,3) NOT NULL,
     Hora time NOT NULL,
     Fecha date NOT NULL,
+    velocidad real(4,5) NOT NULL,
     CONSTRAINT Estado_Vehiculo_pk PRIMARY KEY (id_estado)
 );
 
