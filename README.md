@@ -30,4 +30,11 @@ sudo apt-get install build-essential
 sudo apt-get install libx11-xcb-dev libglu1-mesa-dev
 ```
 
+En el proyecto se usa conexion a la base de datos mysql en mi caso estoy usando el xampp
+
+https://www.apachefriends.org/es/download_success.html
+
+en Qt suele ocurrir el error de driver not load para solucionar el problema me  base en el siguiente tutorial
+https://stackoverflow.com/questions/14667768/qmysql-driver-available-but-not-loaded
+
 
