@@ -11,8 +11,11 @@ nux-x64-3.0.5-online.run
 #### link de la pagina
 
 ```shell
-sh -c "$(https://www.qt.io/download-qt-installer)"
+https://www.qt.io/download-qt-installer
 ```
 -en la carpeta donde se descargo qt poner el siguiente comando 
-chmod +x qt-unified-li
+
+```shell
+chmod +x qt-unified-linux-x64-3.0.5-online.run 
+```
 qt-unified-linux-x64-3.0.5-online.run es la el archivo que se descargo
