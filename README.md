@@ -47,7 +47,7 @@ sudo mkdir /var/run/mysqld
 sudo ln -s /opt/lampp/var/mysql/mysql.sock /var/run/mysqld/mysqld.sock
 ```
 
-### Para ejecutar el proyecto vaya a la carpeta Auto-ctrl y busque un archivo.pro y abralo con Qt
+### Para ejecutar el proyecto vaya a la carpeta Auto-ctrl y abra "Auto-Ctrl.pro" con Qt.
 
 
 
