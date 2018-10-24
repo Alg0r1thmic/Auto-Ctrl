@@ -48,5 +48,5 @@ sudo ln -s /opt/lampp/var/mysql/mysql.sock /var/run/mysqld/mysqld.sock
 ```
 
 ### Para ejecutar el proyecto vaya a la carpeta Auto-ctrl y abra "Auto-Ctrl.pro" con Qt.
-###Cree una base de datos con el nombre "AutoCtrl", luego importe la base de datos de la carpeta DataBase a su PHPMyAdmin
-###Para cuestiones de prueba podría dejar en blanco los campos de usuario y contraseña en el login del sistema... o podría usar user(alex) pass(12345).
+### Cree una base de datos con el nombre "AutoCtrl", luego importe la base de datos de la carpeta DataBase a su PHPMyAdmin
+### Para cuestiones de prueba podría dejar en blanco los campos de usuario y contraseña en el login del sistema... o podría usar user(alex) pass(12345).
