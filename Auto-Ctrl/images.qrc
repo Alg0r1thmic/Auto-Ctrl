@@ -5,5 +5,8 @@
         <file>images/login.png</file>
         <file>images/main.qml</file>
         <file>images/auto.jpg</file>
+        <file>images/conductor.png</file>
+        <file>images/89843.png</file>
+        <file>images/lambor.jpg</file>
     </qresource>
 </RCC>

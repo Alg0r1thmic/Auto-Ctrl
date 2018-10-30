@@ -7,12 +7,12 @@ Item {
 
     //![1]
     ChartView {
-        title: "Spline"
+        title: "VENTA DE AUTOS"
         anchors.fill: parent
         antialiasing: true
 
         SplineSeries {
-            name: "SplineSeries"
+            name: "graph"
             XYPoint { x: 0; y: 0.0 }
             XYPoint { x: 1.1; y: 3.2 }
             XYPoint { x: 1.9; y: 2.4 }

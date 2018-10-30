@@ -4,6 +4,7 @@
 #include "dbconnection.h"
 #include <iostream>
 #include <string>
+
 using namespace std;
 void testMysql()
 {
@@ -24,11 +25,22 @@ void testMysql()
     }
 }
 
+void testOpencv()
+{
+    //std::string filename = "/home/Escritorio/SO/Auto-Ctrl/colors.py";
+    std::string filename = "colors.py";
+
+    std::string command = "python3 ";
+    command += filename;
+    system(command.c_str());
+}
+
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     //testMysql();
     //createLoginWindow();
+    //testOpencv();
     Login l;
     l.show();
     l.move(550,200);

@@ -35,7 +35,7 @@ void Login::on_pushButton_clicked()
     {
         QSqlQuery query;
         //query.exec("SELECT * FROM user;");
-        QString consulta="select user,password from user where user= '"+ inputUser+ "' AND password = '"+inputPassword+"'";
+        QString consulta="select nombreUsuario,password from User where nombreUsuario= '"+ inputUser+ "' AND password = '"+inputPassword+"'";
         //query.exec(" select user,password from user where(user='raul') AND password='spaceman'");
         query.exec(consulta);
         while(query.next()) {
@@ -43,6 +43,8 @@ void Login::on_pushButton_clicked()
             password=query.value(1).toString();
         }
         qDebug() << consulta ;
+        qDebug() << "nombre";
+        qDebug() << user  << password ;
     }
     if((inputUser == user) and (password==inputPassword))
     {

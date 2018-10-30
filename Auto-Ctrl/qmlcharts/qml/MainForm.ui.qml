@@ -22,9 +22,9 @@ Item {
             ListElement {component: "View1.qml"}
             ListElement {component: "View2.qml"}
             ListElement {component: "View3.qml"}
-            /*ListElement {component: "View4.qml"}
-            ListElement {component: "View5.qml"}
-            ListElement {component: "View6.qml"}
+            ListElement {component: "View4.qml"}
+            ListElement {component: "View11.qml"}
+            /*ListElement {component: "View6.qml"}
             ListElement {component: "View7.qml"}
             ListElement {component: "View8.qml"}
             ListElement {component: "View9.qml"}

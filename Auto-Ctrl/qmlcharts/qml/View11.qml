@@ -1,4 +1,3 @@
-
 import QtQuick 2.0
 import QtCharts 2.0
 
@@ -7,18 +6,20 @@ Item {
 
     //![1]
     ChartView {
-        title: "Horizontal Percent Bar series"
+        title: "VELOCIDAD EN EL TIEMPO"
         anchors.fill: parent
-        legend.alignment: Qt.AlignBottom
         antialiasing: true
 
-        HorizontalPercentBarSeries {
-            axisY: BarCategoryAxis { categories: ["2007", "2008", "2009", "2010", "2011", "2012" ] }
-            BarSet { label: "Bob"; values: [2, 2, 3, 4, 5, 6] }
-            BarSet { label: "Susan"; values: [5, 1, 2, 4, 1, 7] }
-            BarSet { label: "James"; values: [3, 5, 8, 13, 5, 8] }
+        LineSeries {
+            name: "line"
+            XYPoint { x: 0; y: 0 }
+            XYPoint { x: 1.1; y: 100 }
+            XYPoint { x: 1.2; y: 120 }
+            XYPoint { x: 1.5; y: 140 }
+            XYPoint { x: 1.8; y: 150 }
+            XYPoint { x: 2.5; y: 160 }
+            XYPoint { x: 3.0; y: 170 }
         }
     }
     //![1]
 }
-

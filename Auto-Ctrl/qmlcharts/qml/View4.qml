@@ -7,7 +7,7 @@ Item {
 
     //![1]
     ChartView {
-        title: "NHL All-Star Team Players"
+        title: "VICTORIAS EN DIFERENTES PAISES"
         anchors.fill: parent
         antialiasing: true
 

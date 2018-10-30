@@ -7,12 +7,12 @@ Item {
 
     //![1]
     ChartView {
-        title: "Line"
+        title: "TENDENCIA DE VICTORIAS"
         anchors.fill: parent
         antialiasing: true
 
         LineSeries {
-            name: "LineSeries"
+            name: "line"
             XYPoint { x: 0; y: 0 }
             XYPoint { x: 1.1; y: 2.1 }
             XYPoint { x: 1.9; y: 3.3 }
