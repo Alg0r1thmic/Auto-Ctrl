@@ -1,8 +1,9 @@
 #include "geolocation.h"
-
-Geolocation::Geolocation()
+Geolocation::Geolocation(QString ss)
+    :url(ss)
 {
     QWebEnginePage *page= new QWebEnginePage();
+
 }
 
 QString Geolocation::getUrl() const

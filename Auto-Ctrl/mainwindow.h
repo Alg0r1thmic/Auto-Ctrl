@@ -20,6 +20,7 @@ public:
     void geoLocationInitialization();
     void estadisticasInitialization();
     void showConductor();
+    void showVideo();
     ~MainWindow();
     QUrl commandLineUrlArgument();
     

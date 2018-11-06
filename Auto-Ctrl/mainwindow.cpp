@@ -32,7 +32,7 @@ void MainWindow::car3Dinitialization()
 
 void MainWindow::geoLocationInitialization()
 {
-    Geolocation *geo= new Geolocation();
+    Geolocation *geo= new Geolocation("http://192.168.43.191/Maps/maps.html");
     ui->preview->setPage(geo->getPage());
     ui->preview->setUrl(geo->getUrl());
 }
@@ -46,7 +46,13 @@ void MainWindow::estadisticasInitialization()
 
 void MainWindow::showConductor()
 {
+
+    Geolocation *geo= new Geolocation("qrc:/images/index.html");
+    ui->preview_2->setPage(geo->getPage());
+    ui->preview_2->setUrl(geo->getUrl());
 }
+
+
 
 MainWindow::~MainWindow()
 {

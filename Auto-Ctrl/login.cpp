@@ -27,7 +27,7 @@ Login::~Login()
 
 void Login::on_pushButton_clicked()
 {
-    QString user,password;
+    QString user ,password;
     QString inputUser=ui->lineEdit->text();
     QString inputPassword=ui->lineEdit_2->text();
     QSqlDatabase newDb=this->dbc->getConnection();
@@ -42,16 +42,16 @@ void Login::on_pushButton_clicked()
             user=query.value(0).toString();
             password=query.value(1).toString();
         }
-        qDebug() << consulta ;
-        qDebug() << "nombre";
-        qDebug() << user  << password ;
     }
-    if((inputUser == user) and (password==inputPassword))
+    if(inputUser != " " and inputPassword !="")
     {
-        this->close();
-        MainWindow *w = new MainWindow();
-        w->show();
-        w->move(300,100);
+        if((inputUser == user) and (password==inputPassword))
+        {
+            this->close();
+            MainWindow *w = new MainWindow();
+            w->show();
+            w->move(300,100);
+        }
     }
 
 }

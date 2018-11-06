@@ -2,28 +2,23 @@ import QtQuick 2.0
 import QtQuick.Scene3D 2.0
 import QtQuick.Controls 1.4
 import QtQuick.Layouts 1.2
+import QtQuick.Window 2.10
+import Qt.labs.calendar 1.0
 
 Item {
     id:main
-    Button
-    {
-        id:mybutton
-        x:0
-        y:0
-        text: "hello"
-    }
+    width: 625
+    transformOrigin: Item.TopLeft
+    opacity: 1
     Image {
         id: im
         x: 0
         y: 0
         width: 302
         height: 206
+        opacity: 1
+        clip: false
         source: "lambor.jpg"
     }
 
 }
-
-/*##^## Designer {
-    D{i:0;autoSize:true;height:480;width:640}
-}
- ##^##*/

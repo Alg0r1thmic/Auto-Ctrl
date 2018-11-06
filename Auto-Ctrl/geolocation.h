@@ -14,7 +14,7 @@
 class Geolocation
 {
 public:
-    Geolocation();
+    Geolocation(QString);
     QString getUrl() const;
     void setUrl(const QString &value);
 
@@ -22,7 +22,8 @@ public:
     void setPage(QWebEnginePage *value);
 
 private:
-    QString url="https://www.google.com/maps";//direccion de google maps
+   // QString url="https://www.google.com/maps";//direccion de google maps
+    QString url;
     QWebEnginePage *page = new QWebEnginePage();
 };
 
